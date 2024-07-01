@@ -1,0 +1,232 @@
+.box {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fbfbfb;
+    padding: 0;
+    margin: 0;
+    width: 70%; /*ovde gleda 100% od pocetka ekrana sa desne strane ne pipaaj!*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+  background: #FFC0CB;
+  background: radial-gradient(circle, #FFC0CB, #ab6c76, #d72a87, #64133e, #2e0e1f);
+
+    padding: 10px; /*10px od vrha*/
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+
+  section {
+    margin: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 50px;/*mail bio 10 */
+  }
+
+form{
+    position: relative;
+    top: 18%;
+    left: 82%;
+    transform: translate(-18%, -82%);
+    transition: all 1s;
+    width: 35px;
+    height: 35px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 3px solid white;
+    padding: 5px;
+    box-shadow: 0px 0px 10px #4ae7d7e6;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; /*ne diraj ovo hahahahha*/
+    height: 30px;
+    line-height: 30px; /*visina slova*/
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;  /* pomera za 20px da se lepo vidi text*/
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;/*ne pipaj ga pls bio 10px*/
+    width: 30px;  /*menja velicinu kruga i za dole isto*/
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;  /*umesto kruga stavlja kvadrat*/
+    color: #4ae7d7e6;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 270px; /*menja duzinu sirenja prozora*/
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #4ae7d7e6;
+    color: white;
+}
+
+.dark{
+    background-color: #2a2734;
+    color: whitesmoke; /*menja boju kad se pomeri slajder*/
+}
+.switch{
+    position: absolute;
+    top: 18px;/*NE PIPAJ od gornje linije 18px na dole je spusteno tacno na sredinu svega*/
+    left: 250px;
+    display: inline-block;
+    width: 57px; /*sirina slidera 57 a ovo dole visina 30 ne diraj*/
+    height: 30px;
+}
+
+.slider{
+    position:absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#3b65ba; /* background-color slidera se menja*/
+    border-radius: 30px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before{
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 23px;
+    left: 4px;
+    bottom: 4px;   /*menja od poda slidera 4px isto vazi i za ovo gore*/
+    border-radius: 50%;
+    background-color: whitesmoke; /*Ovde ako se promeni boja menja se boja unutar kruzica*/
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider{
+    background-color: 0 0 1px #7e4519;
+}
+
+input:focus+.slider{
+    box-shadow: 0 0 1px #7e4519;
+}
+
+input:checked+.slider:before{
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Style the search container */
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the input field */
+  .search-container input {
+    padding: 0 20px;/*ne pipaj padding jer je taman namesten 0 i 20px*/
+    font-size: 1em;
+    border: none;
+  }
+  
+  /* Style the submit button */
+  .search-container button {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button's icon */
+  .search-container button i {
+    font-size: 1em;
+  }
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color: #7e4519;
+  }
+
+  li{
+    float: left;
+  }
+
+  li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    background-color: #7e4519;
+  }
+
+  .dropdown:hover .dropbtn{
+    background-color: #3b65ba;
+  }
+
+  li.dropdown{
+    display: inline-block;
+  }
+
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #2a2734;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+.dropdown-content a{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: #3b65ba;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

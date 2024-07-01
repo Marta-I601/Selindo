@@ -1,0 +1,134 @@
+.objavi{ 
+    background: rgb(203 46 187 / 56%);
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;  
+    font-size: 17px; 
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 4px; 
+    float: left;
+    align-items:center;
+    padding: 0px 30px;
+    border:2px solid rgb(203 46 187 / 39%);
+}
+/*JEDVA SAM GA ZAVRSILA NE PIPAAAAJ*/
+.objavi:hover{ 
+    background: white;
+    color:rgb(34, 255, 0);
+    transition: 1s; 
+}
+h3 { 
+    color: white;
+    padding: 0px 10px;
+}
+ .glavnidiv { 
+    width:100%;
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    padding:10px 10px;
+
+ }
+ .detalji { 
+    margin-top: 50%;
+ }
+ .oglas { 
+    width:23%;
+    height:400px;
+    display:flex; 
+    flex-direction:column;
+    align-items:center;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.25);
+    border-radius: 10px;
+    margin: 10px;
+
+ }
+ .slika { 
+    width:250px; 
+    height:250px;
+ }
+a{
+    height: 40px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;  
+    font-size: 17px; 
+    margin-right: 10px;
+    color: #fff;
+    background-color: rgb(203 46 187 / 56%);
+    border-radius: 4px; 
+    float: left;
+    align-items:center;
+    padding: 17px 30px;
+    background-color: rgb(203 46 187 / 36%);
+    border: 2px solid rgb(203 46 187 / 80%);
+}
+a:hover { 
+        color: #000000db;
+        background-color:rgb(203 46 187 / 39%); 
+        transition: 1s ; 
+        border:1px solid #d105d26e  ;
+        border-radius: 30px;
+            
+}
+.dugme{
+    display:flex;
+    align-items: center;
+    justify-content: bottom;
+}
+p { 
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color : black;
+}
+
+.podaci { 
+    display: flex; 
+    justify-content: space-between;
+    align-items : center;
+    width: 100%;
+}
+.text {
+    display: flex; 
+    flex-direction:column;
+    align-items: start;
+    padding: 0 5px;
+}
+.heder{ 
+    display:flex; 
+    justify-content: space-between;
+    align-items:center;
+
+}
+.heder img { 
+    margin: 0 10px ;
+}
+.odjava{
+    display:flex; 
+    align-items:center;
+    background-color : white; 
+    color: #05d120;
+    text-align:center;
+
+}
+.odjava:hover{ 
+    color:  #2252ee;
+    background : white;
+    color: #05d120;
+    transition : 1s;
+    border: 1px solid rgb(0, 255, 106);
+}
+.objavi{ 
+    background: rgb(203 46 187 / 56%);
+}
+.objavi:hover{ 
+    background: white;
+    color:rgb(0, 255, 8);
+    transition: 1s; 
+    border-radius: 30px;
+}

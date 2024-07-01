@@ -1,0 +1,57 @@
+/*css za dodaj korisnika*/
+/*URADI CSS KOD KUCE*/
+body {
+    background: #FFC0CB;
+    background: radial-gradient(circle, #FFC0CB, #ab6c76, #d72a87, #64133e, #2e0e1f);
+  }
+form{
+    height: 400px;
+    width: 300px;
+    background-color: transparent;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    border: 5px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Monaco','Lucida Console';
+    color: black;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;     
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+    border-radius: 30px;
+}
+button{
+    width: 7%;
+    height: 50px;
+    display:flex;
+    align-items:center;
+    background-color : white;
+    color: black;
+    text-align:center;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+button:hover{ 
+    color:  red;
+    background : white;
+    color: red;
+    transition : 1s;
+    border: 1px solid red;
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: rgb(230 86 216);
+    background: radial-gradient(circle, rgb(196 86 230) 0%, rgb(207 45 116) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.ikona { 
+    width: 25px;
+    height: 25px;
+}
+.odjava {
+    height: 40px;
+    display: inline;
+    text-align: center;
+    text-decoration: none; 
+    padding: 12px 30px; 
+    font-size: 17px; 
+    margin-right: 10px;
+    background-color: green;
+    color: rgba(255,255,255,1);
+    border-radius: 4px; 
+    float: left;
+
+}
+
+.klasa123 {
+    display: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%; 
+    }
+    
+.pretraga {
+    height: 50px; 
+    width: 400px; 
+    padding: 0 10px;
+    border: none;
+    margin: 0; 
+    border-radius: 20px;
+    
+    }
+button {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    }
+    
+img {
+    height: 50px;
+    width: 100px;
+    }
+::placeholder {
+    color: rgba(45,78,207,1);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 

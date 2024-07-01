@@ -1,0 +1,20 @@
+/*URADI CSS KOD KUCE*/
+body {
+    background: #FFC0CB;
+    background: radial-gradient(circle, #FFC0CB, #ab6c76, #d72a87, #64133e, #2e0e1f);
+  }
+h2{
+  font-family: 'Poppins',sans-serif;
+  color: wheat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  }
+  p{
+    display:flex;
+    justify-content: left;
+    font-size:30px;
+    color:wheat;
+    font-family: 'Poppins',sans-serif;
+}

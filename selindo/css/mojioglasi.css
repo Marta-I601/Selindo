@@ -1,0 +1,63 @@
+body {
+    background: #FFC0CB;
+    background: radial-gradient(circle, #FFC0CB, #ab6c76, #d72a87, #64133e, #2e0e1f);
+  }
+form{
+    display:flex;
+    height: 300px;
+    width: 90%;
+    background-color: rgba(208, 33, 33, 80%);
+    border-radius: 30px;
+    border: 5px solid rgba(126, 6, 6, 0.8);
+    box-shadow: 0 0 400px rgba(24, 18, 66, 0.6);
+    padding: 20px 15px;
+    margin : auto;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.button {
+        display: flex;
+        text-align: center;
+        width:20%;
+        height: 70px;
+        justify-content:center;
+        align-items: center;
+        text-decoration: none; 
+        font-size: 20px; 
+        margin-left: 10px;
+        border-radius: 4px; 
+        background-color: rgb(203 46 187 / 56%);
+        color: white;
+        box-shadow: 0 0 40px rgba(47, 25, 218, 20%);
+    }
+.button:hover { 
+    color:  rgb(203 46 187 / 56%);
+    background-color: white;
+    transition : 1s; 
+    border: 2px solid #d105d26e;
+    border-radius: 30px;
+}
+.informacije { 
+    display: flex; 
+    color:black;
+    width:20%;
+    margin-left: 30px;
+    font-size:20px;
+    color:black;
+}
+.slika { 
+    display: flex; 
+    align-items:center;
+}
+.dugmici{ 
+   justify-content:right;
+   align-items: center;
+    display: flex; 
+    width:60%;
+
+}

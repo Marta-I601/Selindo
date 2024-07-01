@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/fstyle.css">
+    <title>$elindo</title>
+  </head>
+
+   <div class="table">
+    <table>
+        <thead>
+            <tr>
+                <th style="width:50%">Naziv firme</th>
+                <th style="width:50%"> $ELINDO.d.o.o</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ulica i broj</td>
+                <td>Nepoznata 7</td>
+            </tr>
+            <tr>
+                <td>Podaci o sedistu firme</td>
+                <td>Kragujevac</td>
+            </tr>
+            <tr>
+                <td>e-mail 1</td>
+                <td>$elindo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>e-mail 2</td>
+                <td>office@$elindo.co.rs</td>
+            </tr>
+            <tr>
+                <td>Poreski identifikacioni broj - PIB</td>
+                <td>001122334</td>
+            </tr>
+            <tr>
+                <td>Maticni broj</td>
+                <td>45566778</td>
+            </tr>
+            <tr>
+                <td>Sifra delatnosti</td>
+                <td>583</td>
+            </tr>
+            <tr>
+                <td>Ime i prezime ovlascenog lica</td>
+                <td>Marta Ignjatovic</td>
+            </tr>
+            <tr>
+                <td>Ime i prezime drugog ovlascenog lica</td>
+                <td>Jelena Dencic</td>
+            </tr>
+            <tr>
+                <td>Telefon</td>
+                <td>034/111222</td>
+            </tr>
+            <tr>
+                <td>Faks</td>
+                <td>034/111223</td>
+            </tr>
+            <tr>
+                <td>Obveznik PDV-a</td>
+                <td>'DA!'</td>
+            </tr>
+            <tr>
+                <td>Tekuci racun</td>
+                <td>160-987654-32</td>
+            </tr>
+            <tr>
+                <td>Banka</td>
+                <td>Banka Intesa</td>
+            </tr>
+        </tbody>
+        <style>
+            
+*{
+    box-sizing: border-box;
+}
+
+.box {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background: #FFC0CB;
+    background: radial-gradient(circle, #FFC0CB, #ab6c76, #d72a87, #64133e, #2e0e1f); /*ja sam stavila da bude transparento za sada ali ako ti se svidja mozemo da promenimo i u ovu boju i ona mi je bas lepa i lepo se uklapa #701414*/
+    margin: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #4ae7d7e6;
+    padding: 30px;
+}
+
+.container {
+    margin: 80px 70px 70px;
+    box-shadow:0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+table{
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: #e6b767;
+    border: 1px solid #aaa;
+}
+
+.table td, .table th{
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid transparent;
+}
+
+.table td{
+    font-size: 15px;
+}
+
+.table th{
+    color: #e6b767; /*boja slova*/
+    background: #2a2734;
+}
+
+.table tbody tr:nth-child(even){
+    background: #4ae7d7e6
+}
+
+@media(max-width: 500px){
+    table thead{
+        display: none;
+    }
+.table, .table tbody, .tabletr, .table td{
+    display: block;
+    width: 100%;
+}
+
+.table tr{
+    margin-bottom: 15px;
+}
+
+.table td{
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+}
+
+.table td::before{
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-size:bold;
+    text-align: left;
+}
+}
+            </style>
+    </table>
+   </div>
+</body>
+</html>
